@@ -1,0 +1,7 @@
+{
+    "name": "codespaces-test",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "service": "go"
+}
