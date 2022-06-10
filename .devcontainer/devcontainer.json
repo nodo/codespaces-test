@@ -1,7 +1,7 @@
 {
     "name": "codespaces-test",
-    "build": {
-      "dockerfile": "Dockerfile"
-    },
+    "dockerComposeFile": [
+        "docker-compose.yaml"
+    ],
     "service": "go"
 }
